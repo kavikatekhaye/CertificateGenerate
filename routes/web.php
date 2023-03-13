@@ -15,9 +15,11 @@ use App\Models\Certificate;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/',[CertificateController::class,'welcome']);
 
 Route::get('admin/certificate/create',[CertificateController::class,'create'])->name('admin.certificate.create');
 Route::get('admin/certificate/',[CertificateController::class,'index'])->name('admin.certificate');

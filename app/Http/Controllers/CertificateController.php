@@ -14,9 +14,17 @@ use Illuminate\Support\Str;
 
 class CertificateController extends Controller
 {
+
+
+
     public function create()
     {
         return view('create');
+    }
+
+    public function welcome()
+    {
+        return view('welcome');
     }
 
 

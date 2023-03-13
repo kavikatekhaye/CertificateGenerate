@@ -64,8 +64,8 @@
                             </a>
                             <a href="{{ route('admin.certificate.destroy', $d->id) }}"><button>delete</button> </a>
                         </td>
-                        <td> <a
-                                href="{{ route('admin.certificate.viewCertificate', $d->id) }}"><button class="btn btn-success">View</button>
+                        <td> <a href="{{ route('admin.certificate.viewCertificate', $d->id) }}"><button
+                                    class="btn btn-success">View</button>
                             </a>
                         </td>
                     </tr>
